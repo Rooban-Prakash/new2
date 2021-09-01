@@ -1,0 +1,61 @@
+body {
+	padding: 0;
+	margin: 0;
+	background-color: teal;
+	scroll-behavior: smooth;
+}
+header {
+	background-color: orange;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+input {
+	text-transform: uppercase;
+}
+button {
+	border: none;
+	background-color: powderblue;
+	padding: 10px 15px;
+	cursor: pointer;
+}
+button:hover {
+	background-color: orange;
+	color: white;
+	border: 2px solid teal;
+	overflow: hidden;
+}
+
+.first-sec {
+	display: flex;		
+	flex-direction: column;
+	justify-content: center;
+	align-items:center;
+	margin-top: 40px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.first-sec div{
+	padding: 10px 0;
+}
+.second-sec {
+	display: flex;
+	flex-direction: column;
+	margin-left: 5%;
+	margin-right: 5%;
+	padding-top: 0px;
+	margin-top: 30px;
+}
+.second-sec i{
+	height: 100px;
+	width: 100px;
+}
+.id-section {
+	margin: 10px 0;
+	background-color: orange;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 40px 0;
+}
